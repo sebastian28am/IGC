@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Peso Adecuado</title>
+	<script type="text/javascript" src="pagina4.js"></script>
+</head>
+<body>
+
+<div class='a'>
+<p>Calculadora De Grasa Corporal</p>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+<form action="pagina3.php" method="get" onsubmit="return validar();">
+digite su nombre:
+<input type="text" name="nombre" id="nombre">
+<br>
+ingrese su edad:
+<input type="text" name="edad" id="edad">
+<br>
+ingrese su peso actual:
+<input type="text" name="peso" id="peso">(kg)
+<br>
+selecione su sexo:
+<br>
+<input type="radio" name="radio1"  checked="checked" value="hombre" id="hombre" onclick="ocultar()">
+hombre
+<br>
+<input type="radio" name="radio1" value="mujer" id="mujer" onclick="mostrar()">
+mujer
+<br>
+ingrese su altura:
+<input type="text" name="alto" id="alto">(cm)
+<br>
+ingrese su medida del cuello:
+<input type="text" name="cuello" id="cuello">(cm)
+<br>
+ingrese su medida de cintura:
+<input type="text" name="cintura" id="cintura">(cm)
+<br>
+<div id='ocultar' style="display:none">
+ingrese su medida de cadera:
+<input type="text" name="cadera" id="cadera">(cm)
+<br>
+</div>
+
+<br>
+<input type="reset" name="limpiar" value="limpiar">
+<input type="submit" name="calcular" value="calcular">
+</form>
+</body>
+</div>
+</html>

@@ -1,0 +1,31 @@
+
+.a{ 
+	font-family: cursive; strong;
+	font-size: 25px;
+	text-align: center;
+	width: 600px;
+	height: 00px;
+	border-radius: 40px;
+	margin-left: 32%;
+	box-shadow:7px 7px 7px #666;
+		background-image:url(http://www.sitiosargentina.com.ar/wp-content/uploads/2014/10/estar-en-forma.jpg);
+
+}
+
+.h{
+	font-family: cursive;
+	width: 450px;
+	height: 80px;
+	border-radius: 30px;
+	box-shadow:10px 10px 10px #666;
+	margin-left: 35%;
+	background-image:url(http://www.sitiosargentina.com.ar/wp-content/uploads/2014/10/estar-en-forma.jpg);
+}
+
+*{
+
+		background-image:url(http://1www.ecestaticos.com/imagestatic/clipping/1b5/7ba/35d/1b57ba35d8941e68e88aa6fcc7736db4/estar-en-forma-en-solo-20-minutos-al-dia-es-posible-si-sigues-estos-consejos.jpg?mtime=1448900583);
+
+}
+
+
